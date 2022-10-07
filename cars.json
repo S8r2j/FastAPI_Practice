@@ -1,0 +1,95 @@
+[
+    {
+        "size": "s",
+        "fuel": "gasoline",
+        "doors": 3,
+        "transmission": "auto",
+        "id": 1,
+        "trips": []
+    },
+    {
+        "size": "s",
+        "fuel": "gasoline",
+        "doors": 3,
+        "transmission": "auto",
+        "id": 2,
+        "trips": []
+    },
+    {
+        "size": "s",
+        "fuel": "electric",
+        "doors": 5,
+        "transmission": "manual",
+        "id": 3,
+        "trips": []
+    },
+    {
+        "size": "m",
+        "fuel": "electric",
+        "doors": 3,
+        "transmission": "auto",
+        "id": 4,
+        "trips": []
+    },
+    {
+        "size": "m",
+        "fuel": "hybrid",
+        "doors": 5,
+        "transmission": "auto",
+        "id": 5,
+        "trips": [
+            {
+                "start": 2,
+                "end": 5,
+                "description": "Grocery",
+                "id": 1
+            },
+            {
+                "start": 2,
+                "end": 5,
+                "description": "Grocery",
+                "id": 2
+            }
+        ]
+    },
+    {
+        "size": "m",
+        "fuel": "gasoline",
+        "doors": 5,
+        "transmission": "manual",
+        "id": 6,
+        "trips": []
+    },
+    {
+        "size": "l",
+        "fuel": "diesel",
+        "doors": 5,
+        "transmission": "manual",
+        "id": 7,
+        "trips": []
+    },
+    {
+        "size": "l",
+        "fuel": "electric",
+        "doors": 5,
+        "transmission": "auto",
+        "id": 8,
+        "trips": []
+    },
+    {
+        "size": "l",
+        "fuel": "electric",
+        "doors": 10,
+        "transmission": "semi-manual",
+        "id": 9,
+        "trips": []
+    },
+    {
+        "size": "m",
+        "fuel": "hybrid",
+        "doors": 4,
+        "transmission": "manual",
+        "id": 10,
+        "trips": []
+    }
+]
