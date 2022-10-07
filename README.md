@@ -12,4 +12,4 @@
   4. To run the project on the browser run the following command in the terminal of Pycharm in which project is opened
   > &nbsp; uvicorn carsharing:app --reload
 # About
-> Cars.json is the file that works as the database which holds the data in the json format
+> cars.json is the file that works as the database which holds the data in the json format.&nbsp; &nbsp;schemas.py is the python file that have the detailed members of the classes
