@@ -9,3 +9,5 @@
   1. Install the above versions of python and pycharm
   2. Clone this repository into your local computer
   3. Open the project in Pycharm
+  4. To run the project on the browser run the following command in the terminal of Pycharm in which project is opened
+  > &nbsp; uvicorn carsharing:app --reload
