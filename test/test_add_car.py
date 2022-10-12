@@ -8,17 +8,17 @@ from schemas import CarInput, User, Car
 client=TestClient(app)
 
 
-def test_add_car():
-    response= client.post("/api/cars/",
-                          json={
-                              "doors": 7,
-                              "size": "xxl"},
-                          headers={'Authorization': 'Bearer reindert'}
-                          )
-    assert response.status_code==200
-    car=response.json()
-    assert car['doors']==7
-    assert car['size']=='xxl'
+# def test_add_car():
+#     response= client.post("/api/cars/",
+#                           json={
+#                               "doors": 7,
+#                               "size": "xxl"},
+#                           headers={'Authorization': 'Bearer reindert'}
+#                           )
+#     assert response.status_code==200
+#     car=response.json()
+#     assert car['doors']==7
+#     assert car['size']=='xxl'
 
 
 def test_add_car_with_mock():
